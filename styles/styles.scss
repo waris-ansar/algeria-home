@@ -54,8 +54,21 @@ body {
   font-weight: 500;
   font-family: $main-font;
   line-height: 3.625rem;
-  // text-box-trim: trim-start trim-end;
-  // text-box-edge: cap alphabetic;
+  text-box-trim: trim-start trim-end;
+  text-box-edge: cap alphabetic;
+
+  @media screen and (max-width: 1367px) {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+  @media screen and (max-width: 541px) {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+  }
+  @media screen and (max-width: 376px) {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
 }
 
 .title-big-reg {
@@ -63,8 +76,20 @@ body {
   font-weight: 400;
   font-size: 2.75rem;
   line-height: 3.625rem;
-  // text-box-trim: trim-start trim-end;
-  // text-box-edge: cap alphabetic;
+  text-box-trim: trim-start trim-end;
+  text-box-edge: cap alphabetic;
+  @media screen and (max-width: 1367px) {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+  @media screen and (max-width: 541px) {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+  }
+  @media screen and (max-width: 376px) {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
 }
 
 .subtitle-big-md {
@@ -72,8 +97,24 @@ body {
   font-weight: 500;
   font-size: 2rem;
   line-height: 2.375rem;
-  // text-box-trim: trim-start trim-end;
-  // text-box-edge: cap alphabetic;
+  text-box-trim: trim-start trim-end;
+  text-box-edge: cap alphabetic;
+  @media screen and (max-width: 1367px) {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+  @media screen and (max-width: 1025px) {
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+  @media screen and (max-width: 540px) {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+  @media screen and (max-width: 376px) {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
 }
 
 .subtitle-big-reg {
@@ -81,8 +122,24 @@ body {
   font-weight: 400;
   font-size: 2rem;
   line-height: 2.375rem;
-  // text-box-trim: trim-start trim-end;
-  // text-box-edge: cap alphabetic;
+  text-box-trim: trim-start trim-end;
+  text-box-edge: cap alphabetic;
+  @media screen and (max-width: 1367px) {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+  @media screen and (max-width: 1025px) {
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+  @media screen and (max-width: 540px) {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+  @media screen and (max-width: 376px) {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
 }
 
 .btn {
