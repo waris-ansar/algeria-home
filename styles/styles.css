@@ -1,0 +1,480 @@
+@font-face {
+  font-family: "Gothic Joker";
+  src: url("./Gothic-Joker.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: auto;
+  max-width: 1664px;
+  padding: 0 2rem;
+}
+@media screen and (max-width: 1680px) {
+  .container {
+    max-width: 1500px;
+  }
+}
+@media screen and (max-width: 1367px) {
+  .container {
+    max-width: 1260px;
+  }
+}
+@media screen and (max-width: 1281px) {
+  .container {
+    max-width: 1160px;
+    padding: 0 1.25rem;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .container {
+    max-width: 834px;
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 614px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .container {
+    max-width: 100%;
+    padding: 0 3.187rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .container {
+    max-width: 100%;
+    padding: 0 2.25rem;
+  }
+}
+
+.title-big-md {
+  font-size: 2.75rem;
+  font-weight: 500;
+  font-family: "Gothic Joker", Arial, Helvetica, sans-serif;
+  line-height: 3.625rem;
+}
+
+.title-big-reg {
+  font-family: "Gothic Joker", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2.75rem;
+  line-height: 3.625rem;
+}
+
+.subtitle-big-md {
+  font-family: "Gothic Joker", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.375rem;
+}
+
+.subtitle-big-reg {
+  font-family: "Gothic Joker", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.375rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 16.25rem;
+  height: 3rem;
+  border-radius: 4px;
+  border: none;
+  font-family: "Gothic Joker", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-box-trim: trim-start trim-end;
+  text-box-edge: cap alphabetic;
+}
+
+.get-to-know {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.get-to-know .title-heading {
+  text-align: center;
+  max-width: 63.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 3rem;
+  color: rgba(81, 80, 80, 0.7490196078);
+}
+@media screen and (max-width: 1025px) {
+  .get-to-know .title-heading {
+    padding: 0 0.5rem;
+  }
+}
+.get-to-know .title-heading span {
+  color: #515050;
+}
+.get-to-know .flex-container {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 5rem;
+}
+@media screen and (max-width: 1681px) {
+  .get-to-know .flex-container {
+    gap: 4.375rem;
+  }
+}
+@media screen and (max-width: 1367px) {
+  .get-to-know .flex-container {
+    gap: 3.437rem;
+  }
+}
+@media screen and (max-width: 1281px) {
+  .get-to-know .flex-container {
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .get-to-know .flex-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container {
+    margin-top: 2rem;
+    gap: 4.3rem;
+  }
+}
+@media screen and (max-width: 541px) {
+  .get-to-know .flex-container {
+    margin-top: 2rem;
+    gap: 3.8rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .get-to-know .flex-container {
+    margin-top: 2rem;
+    gap: 2.5rem;
+  }
+}
+.get-to-know .flex-container .img-container .img {
+  position: relative;
+}
+.get-to-know .flex-container .img-container .img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.get-to-know .flex-container .img-container .img .svg-forma {
+  position: absolute;
+  left: -1px;
+  bottom: -5rem;
+  width: 101%;
+  z-index: 1;
+  transition: all 0.7s ease;
+}
+@media screen and (max-width: 1680px) {
+  .get-to-know .flex-container .img-container .img .svg-forma {
+    bottom: -4.8rem;
+  }
+}
+@media screen and (max-width: 1367px) {
+  .get-to-know .flex-container .img-container .img .svg-forma {
+    bottom: -4.1rem;
+  }
+}
+@media screen and (max-width: 1281px) {
+  .get-to-know .flex-container .img-container .img .svg-forma {
+    bottom: -3.8rem;
+  }
+}
+@media screen and (max-width: 541px) {
+  .get-to-know .flex-container .img-container .img .svg-forma {
+    bottom: -1.3rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .get-to-know .flex-container .img-container .img .svg-forma {
+    bottom: -0.6rem;
+  }
+}
+.get-to-know .flex-container .img-container .img .hover-group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 17.5rem;
+  height: auto;
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container .img .hover-group {
+    display: none;
+  }
+}
+.get-to-know .flex-container .img-container .hover-color {
+  display: none;
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container .hover-color {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 9;
+  }
+}
+@media screen and (max-width: 769px) and (max-width: 541px) {
+  .get-to-know .flex-container .img-container .hover-color {
+    margin-top: -2.7rem;
+  }
+}
+@media screen and (max-width: 769px) and (max-width: 376px) {
+  .get-to-know .flex-container .img-container .hover-color {
+    margin-top: -2.3rem;
+  }
+}
+.get-to-know .flex-container .img-container .hover-color img {
+  width: 17rem;
+  height: auto;
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container .hover-color img {
+    width: 65%;
+  }
+}
+.get-to-know .flex-container .img-container .area-content {
+  position: relative;
+  z-index: 9;
+  transition: all 0.7s ease;
+}
+.get-to-know .flex-container .img-container .area-content h4 {
+  text-align: center;
+  color: #515050;
+  margin-top: 13px;
+}
+@media screen and (max-width: 1025px) {
+  .get-to-know .flex-container .img-container .area-content h4 {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container .area-content h4 {
+    display: none;
+  }
+}
+.get-to-know .flex-container .img-container .area-content p {
+  text-align: center;
+  color: rgba(81, 80, 80, 0.7490196078);
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container .area-content p {
+    margin-top: 10px;
+  }
+}
+.get-to-know .flex-container .img-container .area-content button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  transform: translatey(100%);
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+@media screen and (max-width: 1025px) {
+  .get-to-know .flex-container .img-container .area-content button {
+    margin-top: 1.7rem;
+  }
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container .area-content button {
+    margin-top: 1.3rem;
+  }
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container .area-content button {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.get-to-know .flex-container .img-container.img-container-1 .img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff4338;
+  background-blend-mode: multiply;
+  background-image: url("../assets/img-1.jpg");
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container.img-container-1 .img::before {
+    display: none;
+  }
+}
+.get-to-know .flex-container .img-container.img-container-1 .area-content button {
+  background-color: #ff4338;
+  color: white;
+}
+.get-to-know .flex-container .img-container.img-container-1 .area-content button:hover {
+  background-color: #ed3b37;
+}
+@media screen and (min-width: 769px) {
+  .get-to-know .flex-container .img-container.img-container-1:hover .img::before {
+    opacity: 1;
+  }
+  .get-to-know .flex-container .img-container.img-container-1:hover .img .svg-forma {
+    bottom: -3.3rem;
+  }
+  .get-to-know .flex-container .img-container.img-container-1:hover .img .hover-group {
+    opacity: 1;
+  }
+  .get-to-know .flex-container .img-container.img-container-1:hover .area-content {
+    margin-top: -2rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+  .get-to-know .flex-container .img-container.img-container-1:hover .area-content {
+    margin-top: -0.9rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .get-to-know .flex-container .img-container.img-container-1:hover .area-content button {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .get-to-know .flex-container .img-container.img-container-1:hover .area-content button {
+    margin-bottom: 2.3rem;
+  }
+}
+.get-to-know .flex-container .img-container.img-container-2 .img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #5b87da;
+  background-blend-mode: multiply;
+  background-image: url("../assets/img-2.jpg");
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container.img-container-2 .img::before {
+    display: none;
+  }
+}
+.get-to-know .flex-container .img-container.img-container-2 .area-content button {
+  background-color: #5b87da;
+  color: white;
+}
+.get-to-know .flex-container .img-container.img-container-2 .area-content button:hover {
+  background-color: #446ecd;
+}
+@media screen and (min-width: 769px) {
+  .get-to-know .flex-container .img-container.img-container-2:hover .img::before {
+    opacity: 1;
+  }
+  .get-to-know .flex-container .img-container.img-container-2:hover .img .svg-forma {
+    bottom: -3.3rem;
+  }
+  .get-to-know .flex-container .img-container.img-container-2:hover .img .hover-group {
+    opacity: 1;
+  }
+  .get-to-know .flex-container .img-container.img-container-2:hover .area-content {
+    margin-top: -2rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+  .get-to-know .flex-container .img-container.img-container-2:hover .area-content {
+    margin-top: -0.9rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .get-to-know .flex-container .img-container.img-container-2:hover .area-content button {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .get-to-know .flex-container .img-container.img-container-2:hover .area-content button {
+    margin-bottom: 2.3rem;
+  }
+}
+.get-to-know .flex-container .img-container.img-container-3 .img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #3fd5ae;
+  background-blend-mode: multiply;
+  background-image: url("../assets/img-3.jpg");
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+@media screen and (max-width: 769px) {
+  .get-to-know .flex-container .img-container.img-container-3 .img::before {
+    display: none;
+  }
+}
+.get-to-know .flex-container .img-container.img-container-3 .area-content button {
+  background-color: #3fd5ae;
+  color: white;
+}
+.get-to-know .flex-container .img-container.img-container-3 .area-content button:hover {
+  background-color: #2ec99b;
+}
+@media screen and (min-width: 769px) {
+  .get-to-know .flex-container .img-container.img-container-3:hover .img::before {
+    opacity: 1;
+  }
+  .get-to-know .flex-container .img-container.img-container-3:hover .img .svg-forma {
+    bottom: -3.3rem;
+  }
+  .get-to-know .flex-container .img-container.img-container-3:hover .img .hover-group {
+    opacity: 1;
+  }
+  .get-to-know .flex-container .img-container.img-container-3:hover .area-content {
+    margin-top: -2rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+  .get-to-know .flex-container .img-container.img-container-3:hover .area-content {
+    margin-top: -0.9rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .get-to-know .flex-container .img-container.img-container-3:hover .area-content button {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .get-to-know .flex-container .img-container.img-container-3:hover .area-content button {
+    margin-bottom: 2.3rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
